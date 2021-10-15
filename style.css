@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+:root{
+    --font: 'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+body{
+    background-color: #003161;
+}
+main{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos{
+    width: 50%;
+    color: #fff;
+}
+
+.textos a{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    text-decoration: none;
+    color:#fff;
+}
+.textos a:hover{
+    background-color: #005B88;
+}
+
+.imagem{
+    width: 50%;
+}
+
+.imagem img{
+    width: 100%;
+    height: 1000px;
+}
+
+.rodape h5{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-size: 24px;
+    color: #fff;
+}
+.rodape p{
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.rodape h6{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+.cabecalho{
+    background-color: #31CDE2;
+    width: 100%;
+    height: 70px;
+}
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 200px ;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.menu ul a:hover{
+    background-color: #005B88;   
+}
+
+.Grupo{
+    width: 100%;
+    margin-left: 30px;
+}
+.Grupo img{
+    display: flex;
+    justify-content: center;
+}
+
+.Grupo p{
+    font-size: 24px;
+    color: #fff;
+    height: 50px;
+}
+
+.Titulo h1{
+    width: 100%;
+    height: 100px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    background-color: #31CDE2;
+    height: 150px;
+    color: #fff;
+    
+}
+.footer h6{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer h5{
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer ol{ 
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.individuais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.individuais img{
+    width: 200px;
+    margin-right: 70px;
+}
+
+.subtitulo h3{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+}
+.colab {
+    width: 1000px;
+    margin-left: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colab a, p{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.colab a:hover{
+    background-color: #005B88;   
+}
+
+.group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.group img{
+    width: 400px;
+    height: 400px;
+    margin-right: 70px;
+}
+
+.tabela{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela img{
+    width: 800px;
+}
